@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Memory game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cards-container">
+                <div class="row">
+                    <div class="card hidden"onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden"  onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                </div>
+                <div class="row">
+                    <div class="card hidden"onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden"onclick="onCardClick(event)"></div>
+                </div>
+                <div class="row">
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden"onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                </div>
+                <div class="row">
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                    <div class="card hidden" onclick="onCardClick(event)"></div>
+                </div>
+            </div>
+            <div class="result-container">
+                <p id="result"></p>
+            </div>
+            <div id="button-container">
+                <button id="restartBtn" onclick="window.location.reload();">Restart</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>

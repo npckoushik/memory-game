@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition: all 0.3 ease; */
+}
+
+.container {
+    background-color: hsl(0, 0%, 80%);
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+    border-radius: 10px;
+    /* background-color: white; */
+}
+.cards-container {
+    background-color: hsl(0, 0%, 80%);
+    border: 0;
+    border-radius: 20px;
+    /* padding: 50px; */
+}
+.result-container {
+    margin: 20px;
+    /* border: 5px solid black; */
+    text-align: center;
+    color: hsl(0, 0%, 20%);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+#winMsg {
+    font-size: 1.7rem;
+    color: hsl(0, 0%, 20%);
+}
+#button-container {
+    display: none;
+}
+#restartBtn {
+    width: 100%;
+    border: 7px solid hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 80%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+#restartBtn:hover {
+    /* border: 7px solid hsl(0, 0%, 80%); */
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 80%);
+}
+.card {
+    margin: 3px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+.card .done {
+    cursor: default;
+}
+.card.done:hover {
+    border: 0;
+    cursor: default;
+}
+.card:hover {
+    border: 5px solid hsl(0, 0%, 0%);
+}
+.red {
+    background-color: hsl(0, 100%, 60%);
+}
+.green {
+    background-color: hsl(120, 58%, 45%)
+}
+.blue {
+    background-color: rgb(61, 103, 239);
+}
+.yellow {
+    background-color: rgb(216, 218, 66);
+}
+.orange {
+    background-color: orange;
+}
+.violet {
+    background-color: rgb(212, 82, 212);
+}
+.pink {
+    background-color: pink;
+}
+.skyblue {
+    background-color: rgb(168, 206, 220);
+}
+.hidden {
+    background-color: hsl(0, 0%, 20%);
+}
